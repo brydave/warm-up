@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// Components
+import SimpleInput from './components/october/simpleInput';
+
 class App extends Component {
   render() {
     return (
@@ -9,7 +12,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            <SimpleInput/>
           </p>
           <a
             className="App-link"
